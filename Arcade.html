@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&family=Coral+Pixels&family=Doto:wght@100..900&family=Monoton&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>810_Arcade (Mildly Retro)</title>
+</head>
+
+<body>
+  <h1 class = "bigNames">810's Arcade Games</h1>
+  <div class = "NeonSign">Click   on   the   Machine!</div>
+  <img src = "ArcadeMachine.png" class = "Machine" draggable="false"></img>
+
+  <div id="homeScreen" class="modal">
+        <div class="OurFinest"><span class="close">&times;</span>
+            <h2>Our Finest Selection!</h2>
+            <div class="NeonSign">A Grand Selection (Or So)!</div>
+            <div class="gameSelection">
+                <img src="RPSLogo.png" draggable="false" class="RPS">
+                <img src="pacman.png" draggable="false" class="PAC">
+                <img src="ballbounce.png" draggable="false" class="BALL">
+            </div>
+        </div>
+    </div>
+            <div id="RPScreen" class="modal ForNP"><div class="OurFinest"><span class="close">&times;</span>
+                <h2>RPS!</h2>
+                <iframe id="RPSIframe" src="RPS.html" frameborder="0"></iframe>
+            </div>
+            </div>
+
+            <div id="PACScreen" class="modal ForNP"><div class="OurFinest"><span class="close">&times;</span>
+                <h2>PACMAN (Pigeon)!</h2>
+                <iframe id="PACIframe" src="PAC.html" frameborder="0"></iframe>
+            </div>
+            </div>
+
+            <div id="BALLScreen" class="modal ForNP"><div class="OurFinest"><span class="close">&times;</span>
+                <h2>BALL!</h2>
+                <iframe id="BALLIframe" src="RPS.html" frameborder="0"></iframe>
+            </div>
+            </div>   
+  <script src="script.js"></script>
+</body>
+
+</html>

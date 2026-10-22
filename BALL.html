@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&family=Coral+Pixels&family=Doto:wght@100..900&family=Monoton&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>810_Arcade (Mildly Retro)</title>
+</head>
+<body class = "BALL">
+<div id="BALLScreen" class="modal" style="display: block;">
+   <div class="RulesContainer">
+    <div class="RulesContent">
+      <h1>Wow a pop up</h1>
+      <p>Rules of the Game: </p>
+      <ol>
+        <li>Just dodge dodge dodge!</li> </br> 
+        <li>Those bubble shooters games are hard to make </li>
+        <li>So it's dodgeball! </li>
+        <li>Unfortunately, no mobile support yet.</li>
+      </ol>
+      <p>...</p>
+      <div class = "buttons"> 
+      <button class = "gotIt"> Got it!</button>
+      </div>
+    </div>
+  </div>
+  <div class="game-container">
+      <canvas id="BallMap"></canvas>
+  
+      <div class="PopCornContainer" style="visibility:hidden;">
+          <p>Score: <span class="score">0</span></p>
+          <button class="round">Play Again</button>
+          <button class="accept">Quit</button>
+      </div>
+  </div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
